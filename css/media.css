@@ -1,0 +1,329 @@
+@media (min-width:992px) and (max-width:1199px){
+    .experiance .watch-feature-right img{
+        width: 80%;
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    /* landing page */
+    .banner-right h1{
+        font-size: 50px;
+        line-height: 60px;
+        width: 100%;
+    }
+
+    .banner-inner{
+        padding: 0 0 10px;
+    }
+
+    .banner-right h3{
+        margin: 15px 0 10px;
+    }
+
+    .banner-right p{
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0 0 25px;
+    }
+
+    .button a{
+        font-size: 14px;
+    }
+
+    .banner-left img{
+        width: 74%;
+    }
+    /* landing page */
+
+    /* about watch start */
+    .about-watch-title p{
+        font-size: 14px;
+    }
+
+    .about-watch-title h1{
+        font-size: 40px;
+        line-height: 50px;
+        width: 70%;
+    }
+    /* about watch end  */
+
+
+    /* watch feature start */
+    .watch-feature-right img{
+        width: 100%;
+    }
+
+    .watch-feature-left p,.watch-feature1 h6{
+        font-size: 14px;
+    }
+
+    .watch-feature-left h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 0 20px;
+    }
+
+    .watch-feature-left h1 span{
+        margin: 0 0 0 110px;
+    }
+
+    .watch-feature1{
+        margin: 0 0 10px 60px;
+    }
+
+    .watch-feature1 p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* watch feature end */
+
+    /* experiance start */
+    .experiance .watch-feature-left h1 span{
+        margin: 0 0 0 50px;
+    }
+
+    .experiance .watch-feature-right img{
+        width: 130%;
+    }
+    /* experiance end  */
+    /* fitness start */
+    .fitness-header h5{
+        font-size: 14px;
+    }
+
+    .fitness-header h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 0 20px;
+    }
+
+    .fitness-header p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* fitness end */
+
+    /* watch models start */
+    .watch-model-title h5,.watch-model1 h5{
+        font-size: 14px;
+    }
+
+    .watch-model-title h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 0 20px;
+    }
+    /* watch models end */
+
+    /* customer rivew start */
+    .customer-title h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 0 20px;
+    }
+
+    .customer-rivew #slider p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* customer rivew end */
+    .footer-list .active a{
+        /* font-size: 14px; */
+    }
+    .footer-list{
+        padding: 0;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    /* landing page */
+    .landingpage{
+        background-size: auto;
+        text-align: center;
+    }
+
+    .banner-right h1{
+        font-size: 40px;
+        line-height: 50px;
+        width: 100%;
+    }
+
+    .banner-right h3{
+        font-size: 14px;
+        margin: 15px 0 10px;
+    }
+
+    .banner-right p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0 0 20px;
+    }
+
+    .button a{
+        font-size: 12px;
+    }
+
+    .banner-right{
+        margin: 0 0 20px;
+    }
+
+    .banner-inner{
+        padding: 0 0 20px;
+    }
+    /* landing page */
+
+    /* about watch start */
+    .about-watch-title p{
+        font-size: 14px;
+    }
+
+    .about-watch-title h1{
+        font-size: 34px;
+        line-height: 44px;
+        width: 100%;
+    }
+
+    .images-placeholder{
+        margin: 0 0 20px;
+    }
+    /* about watch end  */
+
+
+    /* watch feature start */
+    .watch-feature-right img{
+        width: 100%;
+    }
+
+    .watch-feature-left{
+        text-align: center;
+    }
+
+    .watch-feature-right{
+        margin: 0 0 20px;
+    }
+
+    .watch-feature-left p{
+        font-size: 14px;
+    }
+
+    .watch-feature-left h1{
+        font-size: 34px;
+        line-height: 44px;
+        margin: 0 0 20px;
+    }
+
+    .watch-feature-left h1 span{
+        margin: 0;
+    }
+
+    .watch-feature1{
+        text-align: left;
+    }
+
+    .watch-feature1 h6{
+        font-size: 14px;
+    }
+
+    .watch-feature1 p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* watch feature end */
+
+    /* experiance start */
+    .experiance .watch-feature-left h1 span{
+        margin:  0;
+    }
+
+    .experiance .watch-feature-right img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .experiance .watch-feature-right{
+        margin: 0;
+    }
+    /* experiance end  */
+
+    /* fitness start */
+    .fitness-header{
+        text-align: center;
+    }
+
+    .fitness-header h5{
+        font-size: 14px;
+    }
+
+    .fitness-header h1{
+        font-size: 34px;
+        line-height: 44px;
+        margin: 0 0 20px;
+    }
+
+    .fitness-header p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* fitness end */
+
+    /* watch models start */
+    .watch-model-title h5{
+        font-size: 14px;
+    }
+
+    .watch-model-title h1{
+        font-size: 34px;
+        line-height: 44px;
+        margin: 0 0 20px;
+    }
+
+    .fitness-header p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* watch models end */
+
+    /* customer rivew start */
+    .customer-title h1{
+        font-size: 34px;
+        line-height: 44px;
+        margin: 0 0 20px;
+    }
+
+    .customer-rivew #slider p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* customer rivew end */
+    footer{
+        text-align: center;
+    }
+
+    .footer-right p{
+        font-size: 12px;
+    }
+
+    .socialmedia{
+        justify-content: center;
+    }
+
+    .youtube a{
+        margin: 0;
+    }
+
+    .footer-list{
+        padding: 0;
+    }
+    
+    .copyrides{
+        display: block;
+    }
+
+    .copy-about{
+        display: block;
+        padding: 0;
+    }
+}

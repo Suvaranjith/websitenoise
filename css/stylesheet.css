@@ -1,0 +1,639 @@
+body{
+    font-family: "Poppins", serif;
+}
+
+/* landing page */
+.landingpage{
+    background-image: url('../images/landing\ page\ background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* header start */
+header{
+    padding: 20px 0 0;
+}
+header .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+header .navbar-brand>img{
+    width: 100px;
+    position: relative;
+    bottom: 7px;
+}
+
+header .dropdown{
+    display: none;
+}
+
+header form.navbar-form.navbar-left{
+    display: none;
+}
+
+/* header .navbar-default .navbar-nav>li>a{
+    color: #fff;
+} */
+
+header .menu>li>a{
+    font-size: 16px;
+    color: #fff;
+}
+
+header .navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+}
+
+header .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>li>a:hover{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header-icon{
+    display: flex;
+}
+
+.header-icon li a img{
+    width: 26px;
+}
+
+.heart a img{
+    position:relative;
+    top: 2px;
+}
+/* header end */
+
+/* banner start */
+.banner-inner{
+    padding: 0 0 50px;
+}
+
+.banner-right h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    color: #fff;
+    width: 90%;
+}
+
+.banner-right h1 span{
+    color: #9650ff;
+}
+
+.banner-right h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: 20px 0 15px;
+}
+
+.banner-right p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #eee4fd;
+    margin: 0 0 50px;
+}
+
+.button a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 100px;
+    background-color: #9650ff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.banner-left{
+    text-align: center;
+}
+
+.banner-left img{
+    width: 60%;
+    margin: 10px auto 0;
+}
+/* banner end */
+
+/* landing page end */
+
+
+/* about watch start */
+.about-watch-inner{
+    margin: 50px 0;
+    display: inline-block;
+}
+
+.about-watch{
+    max-width: 100%;
+    background-image:linear-gradient( 90deg, rgb(253,237,253) 7%, rgb(255,255,255) 73%);
+}
+
+.about-watch-title{
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.about-watch-title p{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #707070;
+}
+
+.about-watch-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+    width: 50%;
+    margin: 0 auto;
+    color: #2b2b2b;
+}
+
+.about-watch-title h1 span{
+    color: #7218fa;
+}
+
+.images-placeholder{
+    border-radius: 30px;
+}
+
+.images-placeholder a img{
+    width: 100%;
+}
+
+.images-placeholder a:hover img{
+    box-shadow: 0px 0px 23.7px 6.3px rgba(183, 139, 249, 0.64);
+}
+/* about watch end */
+
+/* watch feature start */
+.watch-feature{
+    background-color: #feeffe;
+}
+
+.watch-feature-right img{
+    width: 90%;
+}
+
+.watch-feature-left p{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #707070;
+}
+
+.watch-feature-left h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #7218fa;
+    margin: 0 0 30px;
+}
+
+.watch-feature-left h1 span{
+    color: #2b2b2b;
+    margin: 0 0 0 180px;
+}
+
+.watch-feature1{
+    margin: 0 0 20px 60px;
+}
+
+.watch-feature1 h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2b2b2b;
+    text-transform: capitalize;
+}
+
+.watch-feature1 p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #707070;
+    text-transform: none;
+}
+/* .heart-beet h6::before{
+    content: "";
+    background-image: url("../images/heart.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 46px;
+    display: inline-block;
+} */
+
+.heart-beet,.voice,.battery{
+    position: relative;
+}
+
+.heart-beet::before{
+    content: "";
+    background-image: url("../images/heart\ beet.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 54px;
+    height: 46px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+.voice::before{
+    content: "";
+    background-image: url("../images/maick.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 35px;
+    height: 54px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -43px;
+}
+
+.battery::before{
+    content: "";
+    background-image: url("../images/battery.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 30px;
+    height: 54px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+
+.watch-feature-inner{
+    margin: 50px 0;
+    display: inline-block;
+}
+/* watch feature end */
+
+/* experiance start*/
+.experiance{
+    background-color: #feeffe;
+}
+.persentage{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.persentage h5{
+    color: #2b2b2b;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.back-line{
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin: 40px 0 0;  
+}
+
+.value{
+    height: 10px;
+    width: 100%;
+    border-radius: 100px;
+    background-color: #7218fa;
+    position: absolute;
+    top: 35px;
+}
+
+.persentage80{
+    width: 80%;
+}
+
+.persentage40{
+    width: 40%;
+}
+
+.persentage60{
+    width: 60%;
+}
+
+.experiance .heart-beet::before,.experiance .voice::before,.experiance .battery::before{
+    display: none;
+}
+
+.experiance .watch-feature1{
+    margin: 0 0 40px;
+}
+
+.experiance .watch-feature-left h1 span{
+    margin: 0 0 0 60px;
+}
+
+.experiance .watch-feature-right img{
+    width: 80%;
+}
+
+.experiance .experiance-inner{
+    width: 100%;
+    display: inline-block; 
+    margin: 50px 0;
+}
+/* experiance end */
+
+/* fitness start */
+.fitness{
+    background-image: linear-gradient(90deg, rgb(253, 237, 253) 7%, rgb(255, 255, 255) 73%);
+}
+
+.fitness-inner{
+    margin: 50px 0;
+}
+
+.fitness-header h5{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #707070;
+    margin: 0 0 10px;
+}
+
+.fitness-header h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #7218fa;
+    margin: 0 0 30px;
+}
+
+.fitness-header h1 span{
+    color: #2b2b2b;
+}
+
+.fitness-header p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #707070;
+    text-transform: none;
+}
+
+.fitness-vedio{
+    position: relative;
+}
+
+.vedio{
+    width: 100%;
+    /* position: relative; */
+}
+
+.vedio img{
+    width: 100%;
+}
+
+.play-button{
+    padding: 20px;
+    border-radius: 100%;
+    background-color: rgb(118, 118, 118);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.play-button a img{
+    width: 20px;
+    position: relative;
+    right: -1px;
+    top: 1px;
+}
+/* fitness end */
+
+/* watch models start */
+.watch-model{
+    background-color: #feeffe;
+    padding: 50px 0;
+}
+
+.watch-model-title{
+    text-align: center;
+}
+
+.watch-model-title h5{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #707070;
+    margin: 0 0 10px;
+}
+
+.watch-model-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #7218fa;
+    margin: 0 0 30px;
+}
+
+.watch-model-title h1 span{
+    color: #2b2b2b;
+}
+
+.watch-model1{
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.watch-model1 h5{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #2b2b2b;
+    margin: 0 0 20px;
+}
+
+.watch-model1 img{
+    width: 70%;
+    margin: 0 auto 20px;
+}
+
+.watch-model1 p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #2b2b2b  ;
+}
+
+.model-button a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 100px;
+    background-color: #9650ff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.watch-model1:hover{
+    box-shadow: 0px 0px 21.36px 2.64px rgba(0, 0, 0, 0.13);  
+}
+
+.watch-model .active{
+    box-shadow: 0px 0px 21.36px 2.64px rgba(0, 0, 0, 0.13); 
+}
+/* watch models end */
+
+/* customer rivew start */
+.customer{
+    background-image: linear-gradient(90deg, rgb(253, 237, 253) 7%, rgb(255, 255, 255) 73%);
+}
+.customer-inner{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.customer .slider-wrapper{
+    background: transparent;
+}
+
+.customer-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #7218fa;
+    margin: 0 0 30px;
+}
+
+.customer-title h1 span{
+    color: #2b2b2b;
+}
+
+.customer-rivew .lean-slider-slide img{
+    width: 100px;
+    margin: 0 auto 10px;
+}
+
+.customer-rivew #slider p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #707070;
+    text-transform: none;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.customer-rivew .slider-wrapper{
+    box-shadow: none;
+}
+
+/* .customer-rivew #slider-direction-nav a{
+    background: url("../images/arow.png") no-repeat 0 0;
+    width: 10px;
+} */
+/* customer rivew end */
+
+/* footer start */
+ul li{
+    list-style: none;
+}
+
+footer{
+    background-color: #2b2b2b;
+}
+.logo a img{
+    width: 140px;
+    margin: 0 0 10px;
+}
+
+.footer-right p{
+    font-size: 14px;
+    color: #e1dede;
+    margin: 0 0 20px;
+}
+
+.socialmedia{
+    display: flex;
+    padding: 0;
+}
+
+.socialmedia li a {
+    margin: 0 5px 0 0;
+}
+
+.socialmedia .fb a img{
+   height: 20px;
+}
+
+.socialmedia .instagram a img{
+    width: 20px;
+}
+
+.socialmedia .twiter a img{
+    width: 20px;
+}
+
+.socialmedia .youtube a img{
+    width: 27px;
+}
+
+.footer-list li a{
+    font-size: 14px;
+    color: #ece8e8;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 0 0 10px;
+}
+
+.footer-list .active a{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-list li:hover a{
+    color: #8034fa;
+}
+
+.footer-inner{
+    padding: 30px 0 30px;
+    border-bottom: 1px solid #d1d1d1;
+    margin: 0 0 10px;
+}
+
+.copyrides{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy{
+    font-size: 14px;
+    color: #b6b2b2;
+    font-family: "Poppins", sans-serif; 
+}
+
+.copy-about{
+    display: flex;
+}
+
+.copy-about li a{
+    color: #696969;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 0 0 20px;
+}
+/* footer end */
